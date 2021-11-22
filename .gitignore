@@ -1,0 +1,65 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/osx,erlang,elixir
+# Edit at https://www.toptal.com/developers/gitignore?templates=osx,erlang,elixir
+
+### Elixir ###
+/_build
+/cover
+/deps
+/doc
+/.fetch
+erl_crash.dump
+*.ez
+*.beam
+/config/*.secret.exs
+.elixir_ls/
+
+### Elixir Patch ###
+
+### Erlang ###
+.eunit
+*.o
+*.plt
+.concrete/DEV_MODE
+
+# rebar 2.x
+.rebar
+rel/example_project
+ebin/*.beam
+deps
+
+# rebar 3
+.rebar3
+_build/
+_checkouts/
+
+### OSX ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# End of https://www.toptal.com/developers/gitignore/api/osx,erlang,elixir
