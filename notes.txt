@@ -1,0 +1,16 @@
+Elixir
+------
+Built on top of Erlang & its runtime
+Runs on BEAM VM
+Pheonix web framework
+Nerves IoT framework
+
+
+Why elixir?
+- Backend language without mutable state
+- Modern toolset
+- Docs as a first class citizen
+- High resilience & uptime
+
+Don't use elixir if:
+- you want static types
