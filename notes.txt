@@ -29,3 +29,24 @@ Tuples should be treated as immutable collections grouping data together. Exampl
 Gotcha: you can check types in Elixir
 
 Modules: a way to group functions
+Alias: a way to call a module shorthand
+
+Anonymous functions: hello = fn name -> "hello #{name}" end
+
+Pattern matching
+
+= match operator
+[a, 3, true] = [1, 3, true]
+customer1 = %{name: "something", age: 25}
+%{age: anything} = age_map2 = customer1
+
+^ pin operator
+Used for matching only, not reassigning
+a = 3
+a = 2
+a will be 2 now
+
+^a = 3 will throw
+^a = 2 will not
+
+Key thing with pattern matching is the ability to replace if/else statements with functions
