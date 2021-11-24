@@ -12,5 +12,20 @@ Why elixir?
 - Docs as a first class citizen
 - High resilience & uptime
 
-Don't use elixir if:
-- you want static types
+Don't use elixir if you:
+- want static types
+- want a fully matured ecosystem
+- prefer OOP
+
+
+String concatenation: "2" <> "b"
+&& & || expect anything
+and & or expect a boolean type comparison
+
+Lists are not arrays - they're linked lists. Pushing is O(n), prepending is O(1)
+Maps are objects as they are in JavaScript
+Tuples should be treated as immutable collections grouping data together. Example: coordinates
+
+Gotcha: you can check types in Elixir
+
+Modules: a way to group functions
