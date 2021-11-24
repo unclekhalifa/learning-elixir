@@ -50,3 +50,7 @@ a will be 2 now
 ^a = 2 will not
 
 Key thing with pattern matching is the ability to replace if/else statements with functions
+
+Pipe operator
+
+username = name |> String.trim() |> String.downcase()
